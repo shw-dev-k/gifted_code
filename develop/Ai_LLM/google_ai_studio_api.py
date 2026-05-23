@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="AIzaSyA0VvM6ZZZUiUT615e3NTymacwpY--1vuk")
+client = genai.Client(api_key="수동으로 입력하세요")
 
 response = client.models.generate_content(
     model="gemini-2.5-flash-lite",
