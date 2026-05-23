@@ -2,27 +2,27 @@
 
 ## 폴더 설명
 
-### 1. Ai_LLM_연동
+### 1. Ai_LLM
 * Google AI Studio 연동 코드
 * LM Studio 연동 코드
 
-### 2. yolo구동 cuda가속 _gemini
+### 2. yolo_cuda
 * CUDA 가속 코드
 * UI 기반 YOLO 코드
 * 세팅 값 수정이 편한 코드
 
-### 3. 단순 점선면_gemini
+### 3. mp_linedot
 * FPS 표시 코드
 * YOLO 기반 코드
 * MediaPipe 테스트 코드
 * 기본 코드
 
-### 4. 떨어짐감지_claude (final)
+### 4. fall_down_final
 * 떨어짐 감지 코드
 * 떨어짐 시간 감지 코드
 * 떨어짐 최종 코드 (falldec_final.py)
 
-### 5. 떨어짐감지_gemini
+### 5. fall_down
 * 각 조건에 따르는 각종 테스트 코드
 
 ---
