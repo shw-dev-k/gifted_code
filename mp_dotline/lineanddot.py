@@ -16,7 +16,7 @@ pose = mp_pose.Pose(
 )
 
 # 2. 웹캠 연결
-cap = cv2.VideoCapture(1)  # 0번 카메라는 보통 기본 웹캠입니다.
+cap = cv2.VideoCapture(0)  # 0번 카메라는 보통 기본 웹캠입니다.
 
 while cap.isOpened():
     success, image = cap.read()
